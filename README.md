@@ -4,26 +4,23 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
-Make sure use Node JS lts/gallium -> v16.19.0 <br>
+Make sure use NodeJS version lts/gallium -> v16.19.0 and NPM version 8.19.3
+
+Make sure use Yarn version 1.22.19
+
 Make sure to install the dependencies:
 
 ```bash
 # yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+yarn install --pure-lockfile
 ```
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ## Production
@@ -31,13 +28,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
